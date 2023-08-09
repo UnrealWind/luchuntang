@@ -57,24 +57,24 @@
           <img
             class="flyin-img"
             style="position: absolute; left: -400px"
-            src="../../assets/images/page1-i2-1.png"
+            src="../../assets/images1/page1-i2-1.png"
           />
           <img
             class="flyin-img"
             style="position: absolute; left: -400px"
-            src="../../assets/images/page1-i2-2.png"
+            src="../../assets/images1/page1-i2-2.png"
           />
         </div>
         <div class="page-child page1-bg3" style="">
           <img
             class="flyin-img"
             style="position: absolute; left: -400px"
-            src="../../assets/images/page1-i3-1.png"
+            src="../../assets/images1/page1-i3-1.png"
           />
           <img
             class="flyin-img"
             style="position: absolute; left: 400px"
-            src="../../assets/images/page1-i3-2.png"
+            src="../../assets/images1/page1-i3-2.png"
           />
         </div>
 
@@ -82,7 +82,12 @@
           <img
             class="flyin-img"
             style="position: absolute; left: -400px"
-            src="../../assets/images/page1-i4-1.png"
+            src="../../assets/images1/page1-i4-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; left: -400px"
+            src="../../assets/images1/page1-i4-2.png"
           />
         </div>
 
@@ -90,112 +95,69 @@
           <img
             class="flyin-img"
             style="position: absolute; left: -400px"
-            src="../../assets/images/page1-i5-1.png"
+            src="../../assets/images1/page1-i5-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; left: -400px"
+            src="../../assets/images1/page1-i5-2.png"
           />
         </div>
         <div class="page-child page1-bg6" style="">
           <img
             class="flyin-img"
             style="position: absolute; left: 400px"
-            src="../../assets/images/page1-i6-1.png"
+            src="../../assets/images1/page1-i6-1.png"
           />
           <img
             class="flyin-img"
             style="position: absolute; left: -400px"
-            src="../../assets/images/page1-i6-2.png"
+            src="../../assets/images1/page1-i6-2.png"
           />
         </div>
         <div class="page-child page1-bg7" style="">
           <img
             class="flyin-img"
             style="position: absolute; left: 400px"
-            src="../../assets/images/page1-i7-1.png"
+            src="../../assets/images1/page1-i7-1.png"
           />
         </div>
         <div class="page-child page1-bg8" style="">
           <img
             class="flyin-img"
             style="position: absolute; left: 400px"
-            src="../../assets/images/page1-i8-1.png"
+            src="../../assets/images1/page1-i8-1.png"
           />
         </div>
         <div class="page-child page1-bg9" style="">
           <img
             class="flyin-img"
             style="position: absolute; left: 400px"
-            src="../../assets/images/page1-i9-1.png"
+            src="../../assets/images1/page1-i9-1.png"
           />
           <img
             class="flyin-img"
             style="position: absolute; left: -400px"
-            src="../../assets/images/page1-i9-2.png"
+            src="../../assets/images1/page1-i9-2.png"
           />
         </div>
         <div class="page-child page1-bg10" style="">
           <img
             class="flyin-img"
             style="position: absolute; left: 400px"
-            src="../../assets/images/page1-i10-1.png"
+            src="../../assets/images1/page1-i10-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page1-i10-2.png"
           />
         </div>
         <div class="page-child page1-bg11" style="">
           <img
             class="flyin-img"
             style="position: absolute; left: 400px"
-            src="../../assets/images/page1-i11-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page1-i11-2.png"
-          />
-        </div>
-        <div class="page-child page1-bg12" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page1-i12-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page1-i12-2.png"
-          />
-        </div>
-        <div class="page-child page1-bg13" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page1-i13-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page1-i13-2.png"
-          />
-        </div>
-        <div class="page-child page1-bg14" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page1-i14-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page1-i14-2.png"
-          />
-        </div>
-        <div class="page-child page1-bg15" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page1-i15-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page1-i15-2.png"
+            src="../../assets/images1/page1-i11-1.png"
           />
         </div>
       </div>
@@ -203,267 +165,16 @@
 
     <template v-if="cus.current == 'page2'">
       <div class="index-page scroll" @scroll="scrollFun">
-        <div class="page-child page2-bg1" style="">
+        <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
             style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i1-1.png"
+            src="../../assets/images1/page1-i1-1.png"
           />
           <img
             class="flyin-img first"
             style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i1-2.png"
-          />
-        </div>
-        <div class="page-child page2-bg2" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i2-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i2-2.png"
-          />
-        </div>
-        <div class="page-child page2-bg3" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i3-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i3-2.png"
-          />
-        </div>
-        <div class="page-child page2-bg4" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i4-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i4-2.png"
-          />
-        </div>
-        <div class="page-child page2-bg5" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i5-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg6" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i6-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg7" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i7-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg8" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i8-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg9" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i9-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg10" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i10-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg11" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i11-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg12" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i12-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg13" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i13-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg14" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i14-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg15" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i15-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg16" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i16-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg17" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i17-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg18" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i18-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg19" style=""> </div>
-        <div class="page-child page2-bg20" style=""> </div>
-        <div class="page-child page2-bg21" style=""> </div>
-        <div class="page-child page2-bg22" style=""> </div>
-        <div class="page-child page2-bg23" style=""> </div>
-        <div class="page-child page2-bg24" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i24-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg25" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i25-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg26" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i26-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg27" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i27-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg28" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i28-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg29" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i29-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg30" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i30-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg31" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i31-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg32" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i32-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg33" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i33-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg34" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i34-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg35" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i35-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg36" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i36-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg37" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i37-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg38" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page2-i38-1.png"
-          />
-        </div>
-        <div class="page-child page2-bg39" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page2-i39-1.png"
+            src="../../assets/images1/page2-i1-2.png"
           />
         </div>
       </div>
@@ -471,115 +182,16 @@
 
     <template v-if="cus.current == 'page3'">
       <div class="index-page scroll" @scroll="scrollFun">
-        <div class="page-child page3-bg1" style="">
+        <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
             style="position: absolute; left: -400px"
-            src="../../assets/images/page3-i1-1.png"
-          />
-        </div>
-        <div class="page-child page3-bg2" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page3-i2-1.png"
+            src="../../assets/images1/page1-i1-1.png"
           />
           <img
-            class="flyin-img"
+            class="flyin-img first"
             style="position: absolute; left: 400px"
-            src="../../assets/images/page3-i2-2.png"
-          />
-        </div>
-        <div class="page-child page3-bg3" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page3-i3-1.png"
-          />
-        </div>
-        <div class="page-child page3-bg4" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page3-i4-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page3-i4-2.png"
-          />
-        </div>
-        <div class="page-child page3-bg5" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page3-i5-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page3-i5-2.png"
-          />
-        </div>
-        <div class="page-child page3-bg6" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page3-i6-1.png"
-          />
-        </div>
-        <div class="page-child page3-bg7" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page3-i7-1.png"
-          />
-        </div>
-        <div class="page-child page3-bg8" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page3-i8-1.png"
-          />
-        </div>
-        <div class="page-child page3-bg9" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page3-i9-1.png"
-          />
-        </div>
-        <div class="page-child page3-bg10" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page3-i10-1.png"
-          />
-        </div>
-        <div class="page-child page3-bg11" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page3-i11-1.png"
-          />
-        </div>
-        <div class="page-child page3-bg12" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page3-i12-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page3-i12-2.png"
-          />
-        </div>
-        <div class="page-child page3-bg13" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page3-i13-1.png"
+            src="../../assets/images1/page3-i1-2.png"
           />
         </div>
       </div>
@@ -587,131 +199,16 @@
 
     <template v-if="cus.current == 'page4'">
       <div class="index-page scroll" @scroll="scrollFun">
-        <div class="page-child page4-bg1" style="">
+        <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
             style="position: absolute; left: -400px"
-            src="../../assets/images/page4-i1-1.png"
+            src="../../assets/images1/page1-i1-1.png"
           />
-        </div>
-        <div class="page-child page4-bg2" style="">
           <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page4-i2-1.png"
-          />
-        </div>
-        <div class="page-child page4-bg3" style="">
-          <img
-            class="flyin-img"
+            class="flyin-img first"
             style="position: absolute; left: -400px"
-            src="../../assets/images/page4-i3-1.png"
-          />
-        </div>
-        <div class="page-child page4-bg4" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page4-i4-1.png"
-          />
-        </div>
-        <div class="page-child page4-bg5" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page4-i5-1.png"
-          />
-        </div>
-        <div class="page-child page4-bg6" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page4-i6-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page4-i6-2.png"
-          />
-        </div>
-        <div class="page-child page4-bg7" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page4-i7-1.png"
-          />
-        </div>
-        <div class="page-child page4-bg8" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page4-i8-1.png"
-          />
-        </div>
-        <div class="page-child page4-bg9" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page4-i9-1.png"
-          />
-        </div>
-        <div class="page-child page4-bg10" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page4-i10-1.png"
-          />
-        </div>
-        <div class="page-child page4-bg11" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page4-i11-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page4-i11-2.png"
-          />
-        </div>
-        <div class="page-child page4-bg12" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page4-i12-1.png"
-          />
-        </div>
-        <div class="page-child page4-bg13" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page4-i13-1.png"
-          />
-        </div>
-        <div class="page-child page4-bg14" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page4-i14-1.png"
-          />
-        </div>
-        <div class="page-child page4-bg15" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page4-i15-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page4-i15-2.png"
-          />
-        </div>
-        <div class="page-child page4-bg16" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page4-i16-1.png"
+            src="../../assets/images1/page4-i1-2.png"
           />
         </div>
       </div>
@@ -719,39 +216,16 @@
 
     <template v-if="cus.current == 'page5'">
       <div class="index-page scroll" @scroll="scrollFun">
-        <div class="page-child page5-bg1" style="">
+        <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
             style="position: absolute; left: -400px"
-            src="../../assets/images/page5-i1-1.png"
+            src="../../assets/images1/page1-i1-1.png"
           />
-        </div>
-        <div class="page-child page5-bg2" style="">
           <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page5-i2-1.png"
-          />
-        </div>
-        <div class="page-child page5-bg3" style="">
-          <img
-            class="flyin-img"
+            class="flyin-img first"
             style="position: absolute; left: -400px"
-            src="../../assets/images/page5-i3-1.png"
-          />
-        </div>
-        <div class="page-child page5-bg4" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images/page5-i4-1.png"
-          />
-        </div>
-        <div class="page-child page5-bg5" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: -400px"
-            src="../../assets/images/page5-i5-1.png"
+            src="../../assets/images1/page5-i1-2.png"
           />
         </div>
       </div>
@@ -917,56 +391,38 @@
   .index-bg {
     background-image: url('../../assets/images1/index-bg.png');
   }
-
   .page1-bg1 {
     background-image: url('../../assets/images1/page1-bg1.png');
   }
   .page1-bg2 {
-    background-image: url('../../assets/images/page1-bg2.png');
-    height: 219px !important;
+    background-image: url('../../assets/images1/page1-bg2.png');
   }
   .page1-bg3 {
-    background-image: url('../../assets/images/page1-bg3.png');
-    height: 219px !important;
+    background-image: url('../../assets/images1/page1-bg3.png');
   }
   .page1-bg4 {
-    background-image: url('../../assets/images/page1-bg4.png');
-    height: 219px !important;
+    background-image: url('../../assets/images1/page1-bg4.png');
   }
   .page1-bg5 {
-    background-image: url('../../assets/images/page1-bg5.png');
+    background-image: url('../../assets/images1/page1-bg5.png');
   }
   .page1-bg6 {
-    background-image: url('../../assets/images/page1-bg6.png');
+    background-image: url('../../assets/images1/page1-bg6.png');
   }
   .page1-bg7 {
-    background-image: url('../../assets/images/page1-bg7.png');
+    background-image: url('../../assets/images1/page1-bg7.png');
   }
   .page1-bg8 {
-    background-image: url('../../assets/images/page1-bg8.png');
+    background-image: url('../../assets/images1/page1-bg8.png');
   }
   .page1-bg9 {
-    background-image: url('../../assets/images/page1-bg9.png');
+    background-image: url('../../assets/images1/page1-bg9.png');
   }
   .page1-bg10 {
-    background-image: url('../../assets/images/page1-bg10.png');
+    background-image: url('../../assets/images1/page1-bg10.png');
   }
   .page1-bg11 {
-    background-image: url('../../assets/images/page1-bg11.png');
-  }
-  .page1-bg12 {
-    background-image: url('../../assets/images/page1-bg12.png');
-  }
-  .page1-bg13 {
-    background-image: url('../../assets/images/page1-bg13.png');
-    height: 219px !important;
-  }
-  .page1-bg14 {
-    background-image: url('../../assets/images/page1-bg14.png');
-    height: 219px !important;
-  }
-  .page1-bg15 {
-    background-image: url('../../assets/images/page1-bg15.png');
+    background-image: url('../../assets/images1/page1-bg11.png');
   }
 
   //.setPageBg(@pageIndex,@bgIndex){
@@ -983,289 +439,17 @@
   .page2-bg1 {
     background-image: url('../../assets/images/page2-bg1.png');
   }
-  .page2-bg2 {
-    background-image: url('../../assets/images/page2-bg2.png');
-  }
-  .page2-bg3 {
-    background-image: url('../../assets/images/page2-bg3.png');
-    height: 219px !important;
-  }
-  .page2-bg4 {
-    background-image: url('../../assets/images/page2-bg4.png');
-    height: 219px !important;
-  }
-  .page2-bg5 {
-    background-image: url('../../assets/images/page2-bg5.png');
-    height: 219px !important;
-  }
-  .page2-bg6 {
-    background-image: url('../../assets/images/page2-bg6.png');
-    height: 219px !important;
-  }
-  .page2-bg7 {
-    background-image: url('../../assets/images/page2-bg7.png');
-    height: 219px !important;
-  }
-  .page2-bg8 {
-    background-image: url('../../assets/images/page2-bg8.png');
-    height: 219px !important;
-  }
-  .page2-bg9 {
-    background-image: url('../../assets/images/page2-bg9.png');
-    height: 219px !important;
-  }
-  .page2-bg10 {
-    background-image: url('../../assets/images/page2-bg10.png');
-    height: 219px !important;
-  }
-  .page2-bg11 {
-    background-image: url('../../assets/images/page2-bg11.png');
-    height: 219px !important;
-  }
-  .page2-bg12 {
-    background-image: url('../../assets/images/page2-bg12.png');
-    height: 219px !important;
-  }
-  .page2-bg13 {
-    background-image: url('../../assets/images/page2-bg13.png');
-    height: 219px !important;
-  }
-  .page2-bg14 {
-    background-image: url('../../assets/images/page2-bg14.png');
-    height: 219px !important;
-  }
-  .page2-bg15 {
-    background-image: url('../../assets/images/page2-bg15.png');
-    height: 219px !important;
-  }
-  .page2-bg16 {
-    background-image: url('../../assets/images/page2-bg16.png');
-    height: 219px !important;
-  }
-  .page2-bg17 {
-    background-image: url('../../assets/images/page2-bg17.png');
-    height: 219px !important;
-  }
-  .page2-bg18 {
-    background-image: url('../../assets/images/page2-bg18.png');
-    height: 219px !important;
-  }
-  .page2-bg19 {
-    background-image: url('../../assets/images/page2-bg19.png');
-    height: 219px !important;
-  }
-  .page2-bg20 {
-    background-image: url('../../assets/images/page2-bg20.png');
-    height: 219px !important;
-  }
-  .page2-bg21 {
-    background-image: url('../../assets/images/page2-bg21.png');
-    height: 219px !important;
-  }
-
-  .page2-bg22 {
-    background-image: url('../../assets/images/page2-bg22.png');
-    height: 219px !important;
-  }
-  .page2-bg23 {
-    background-image: url('../../assets/images/page2-bg23.png');
-    height: 219px !important;
-  }
-  .page2-bg24 {
-    background-image: url('../../assets/images/page2-bg24.png');
-    height: 219px !important;
-  }
-  .page2-bg25 {
-    background-image: url('../../assets/images/page2-bg25.png');
-    height: 219px !important;
-  }
-  .page2-bg26 {
-    background-image: url('../../assets/images/page2-bg26.png');
-    height: 219px !important;
-  }
-  .page2-bg27 {
-    background-image: url('../../assets/images/page2-bg27.png');
-    height: 219px !important;
-  }
-  .page2-bg28 {
-    background-image: url('../../assets/images/page2-bg28.png');
-    height: 219px !important;
-  }
-  .page2-bg29 {
-    background-image: url('../../assets/images/page2-bg29.png');
-    height: 219px !important;
-  }
-  .page2-bg30 {
-    background-image: url('../../assets/images/page2-bg30.png');
-    height: 219px !important;
-  }
-  .page2-bg31 {
-    background-image: url('../../assets/images/page2-bg31.png');
-    height: 219px !important;
-  }
-  .page2-bg32 {
-    background-image: url('../../assets/images/page2-bg32.png');
-    height: 219px !important;
-  }
-  .page2-bg33 {
-    background-image: url('../../assets/images/page2-bg33.png');
-    height: 219px !important;
-  }
-  .page2-bg34 {
-    background-image: url('../../assets/images/page2-bg34.png');
-    height: 219px !important;
-  }
-  .page2-bg35 {
-    background-image: url('../../assets/images/page2-bg35.png');
-    height: 219px !important;
-  }
-  .page2-bg36 {
-    background-image: url('../../assets/images/page2-bg36.png');
-    height: 219px !important;
-  }
-  .page2-bg37 {
-    background-image: url('../../assets/images/page2-bg37.png');
-    height: 219px !important;
-  }
-  .page2-bg38 {
-    background-image: url('../../assets/images/page2-bg38.png');
-    height: 219px !important;
-  }
-  .page2-bg39 {
-    background-image: url('../../assets/images/page2-bg39.png');
-  }
 
   .page3-bg1 {
     background-image: url('../../assets/images/page3-bg1.png');
-  }
-  .page3-bg2 {
-    background-image: url('../../assets/images/page3-bg2.png');
-    height: 219px !important;
-  }
-  .page3-bg3 {
-    background-image: url('../../assets/images/page3-bg3.png');
-    height: 219px !important;
-  }
-  .page3-bg4 {
-    background-image: url('../../assets/images/page3-bg4.png');
-    height: 219px !important;
-  }
-  .page3-bg5 {
-    background-image: url('../../assets/images/page3-bg5.png');
-    height: 219px !important;
-  }
-  .page3-bg6 {
-    background-image: url('../../assets/images/page3-bg6.png');
-    height: 219px !important;
-  }
-  .page3-bg7 {
-    background-image: url('../../assets/images/page3-bg7.png');
-    height: 219px !important;
-  }
-  .page3-bg8 {
-    background-image: url('../../assets/images/page3-bg8.png');
-    height: 219px !important;
-  }
-  .page3-bg9 {
-    background-image: url('../../assets/images/page3-bg9.png');
-    height: 219px !important;
-  }
-  .page3-bg10 {
-    background-image: url('../../assets/images/page3-bg10.png');
-    height: 219px !important;
-  }
-  .page3-bg11 {
-    background-image: url('../../assets/images/page3-bg11.png');
-    height: 219px !important;
-  }
-  .page3-bg12 {
-    background-image: url('../../assets/images/page3-bg12.png');
-    height: 219px !important;
-  }
-  .page3-bg13 {
-    background-image: url('../../assets/images/page3-bg13.png');
   }
 
   .page4-bg1 {
     background-image: url('../../assets/images/page4-bg1.png');
   }
-  .page4-bg2 {
-    background-image: url('../../assets/images/page4-bg2.png');
-    height: 219px !important;
-  }
-  .page4-bg3 {
-    background-image: url('../../assets/images/page4-bg3.png');
-    height: 219px !important;
-  }
-  .page4-bg4 {
-    background-image: url('../../assets/images/page4-bg4.png');
-    height: 219px !important;
-  }
-  .page4-bg5 {
-    background-image: url('../../assets/images/page4-bg5.png');
-    height: 219px !important;
-  }
-  .page4-bg6 {
-    background-image: url('../../assets/images/page4-bg6.png');
-    height: 219px !important;
-  }
-  .page4-bg7 {
-    background-image: url('../../assets/images/page4-bg7.png');
-    height: 219px !important;
-  }
-  .page4-bg8 {
-    background-image: url('../../assets/images/page4-bg8.png');
-    height: 219px !important;
-  }
-  .page4-bg9 {
-    background-image: url('../../assets/images/page4-bg9.png');
-    height: 219px !important;
-  }
-  .page4-bg10 {
-    background-image: url('../../assets/images/page4-bg10.png');
-    height: 219px !important;
-  }
-  .page4-bg11 {
-    background-image: url('../../assets/images/page4-bg11.png');
-    height: 219px !important;
-  }
-  .page4-bg12 {
-    background-image: url('../../assets/images/page4-bg12.png');
-    height: 219px !important;
-  }
-  .page4-bg13 {
-    background-image: url('../../assets/images/page4-bg13.png');
-    height: 219px !important;
-  }
-  .page4-bg14 {
-    background-image: url('../../assets/images/page4-bg14.png');
-    height: 219px !important;
-  }
-  .page4-bg15 {
-    background-image: url('../../assets/images/page4-bg15.png');
-    height: 219px !important;
-  }
-  .page4-bg16 {
-    background-image: url('../../assets/images/page4-bg16.png');
-  }
 
   .page5-bg1 {
     background-image: url('../../assets/images/page5-bg1.png');
-  }
-  .page5-bg2 {
-    background-image: url('../../assets/images/page5-bg2.png');
-    height: 219px !important;
-  }
-  .page5-bg3 {
-    background-image: url('../../assets/images/page5-bg3.png');
-    height: 219px !important;
-  }
-  .page5-bg4 {
-    background-image: url('../../assets/images/page5-bg4.png');
-    height: 219px !important;
-  }
-  .page5-bg5 {
-    background-image: url('../../assets/images/page5-bg5.png');
   }
 
   .index-page {
