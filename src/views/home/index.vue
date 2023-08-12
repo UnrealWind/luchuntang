@@ -194,6 +194,7 @@
             src="../../assets/images1/page3-i1-2.png"
           />
         </div>
+        <div class="page-child page3-bg1" style=""> </div>
       </div>
     </template>
 
@@ -211,6 +212,8 @@
             src="../../assets/images1/page4-i1-2.png"
           />
         </div>
+        <div class="page-child page4-bg1" style=""> </div>
+        <div class="page-child page4-bg2" style=""> </div>
       </div>
     </template>
 
@@ -227,6 +230,14 @@
             style="position: absolute; left: -400px"
             src="../../assets/images1/page5-i1-2.png"
           />
+        </div>
+        <div class="page-child page5-bg1" style=""> </div>
+        <div class="page-child page5-bg2" style=""> </div>
+        <div class="page-child page5-bg3" style=""> </div>
+        <div class="video">
+          <video controls="true">
+            <source src="../../assets/images1/video.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
     </template>
@@ -330,9 +341,9 @@
   }
   .back {
     position: absolute;
-    top: 10px;
+    top: 80px;
     z-index: 99999;
-    left: 10px;
+    right: 10px;
     width: 50px;
   }
   .home {
@@ -441,15 +452,30 @@
   }
 
   .page3-bg1 {
-    background-image: url('../../assets/images/page3-bg1.png');
+    background-image: url('../../assets/images1/page3-bg1.png');
+    height: 2300px !important;
   }
 
   .page4-bg1 {
-    background-image: url('../../assets/images/page4-bg1.png');
+    background-image: url('../../assets/images1/page4-bg1.png');
+    height: 1500px !important;
+  }
+  .page4-bg2 {
+    background-image: url('../../assets/images1/page4-bg2.png');
+    height: 2000px !important;
   }
 
   .page5-bg1 {
-    background-image: url('../../assets/images/page5-bg1.png');
+    background-image: url('../../assets/images1/page5-bg1.png');
+    height: 2000px !important;
+  }
+  .page5-bg2 {
+    background-image: url('../../assets/images1/page5-bg2.png');
+    height: 2000px !important;
+  }
+  .page5-bg3 {
+    background-image: url('../../assets/images1/page5-bg3.png');
+    height: 2000px !important;
   }
 
   .index-page {
@@ -476,6 +502,14 @@
         width: 100%;
         margin-top: 21px;
       }
+    }
+  }
+  .video {
+    position: absolute;
+    top: 1845px;
+    video {
+      width: 90%;
+      margin: 0 auto;
     }
   }
 </style>
