@@ -6,7 +6,7 @@
       </div>
     </div>
     <audio autoplay loop id="vd">
-      <!--      <source src="../../assets/test.mp3" type="audio/mpeg" />-->
+      <source src="../../assets/test.mp3" type="audio/mpeg" />
     </audio>
     <div
       v-if="cus.current != 'home' && cus.current != 'index'"
@@ -383,7 +383,7 @@
           />
           <img
             class="flyin-img first"
-            style="position: absolute; left: 400px"
+            style="position: absolute; right: 400px"
             src="../../assets/images1/page3-i1-2.png"
           />
         </div>
@@ -401,7 +401,7 @@
           />
           <img
             class="flyin-img first"
-            style="position: absolute; left: 400px"
+            style="position: absolute; right: 400px"
             src="../../assets/images1/page4-i1-2.png"
           />
         </div>
@@ -420,7 +420,7 @@
           />
           <img
             class="flyin-img first"
-            style="position: absolute; left: 400px"
+            style="position: absolute; right: 400px"
             src="../../assets/images1/page5-i1-2.png"
           />
         </div>
@@ -536,7 +536,7 @@
     position: absolute;
     top: 80px;
     z-index: 99999;
-    right: 20px;
+    left: 20px;
     width: 50px;
   }
   .home {
