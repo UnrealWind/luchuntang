@@ -6,7 +6,7 @@
       </div>
     </div>
     <audio autoplay loop id="vd">
-      <source src="../../assets/test.mp3" type="audio/mpeg" />
+      <!--      <source src="../../assets/test.mp3" type="audio/mpeg" />-->
     </audio>
     <div
       v-if="cus.current != 'home' && cus.current != 'index'"
@@ -43,12 +43,12 @@
         <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
-            style="position: absolute; left: -400px"
+            style="position: absolute; left: 400px"
             src="../../assets/images1/page1-i1-1.png"
           />
           <img
             class="flyin-img first"
-            style="position: absolute; left: 400px"
+            style="position: absolute; right: 400px"
             src="../../assets/images1/page1-i1-2.png"
           />
         </div>
@@ -56,24 +56,24 @@
         <div class="page-child page1-bg2" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: -400px"
+            style="position: absolute; left: 400px"
             src="../../assets/images1/page1-i2-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; left: -400px"
+            style="position: absolute; right: 400px"
             src="../../assets/images1/page1-i2-2.png"
           />
         </div>
         <div class="page-child page1-bg3" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: -400px"
+            style="position: absolute; left: 400px"
             src="../../assets/images1/page1-i3-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; right: 400px"
             src="../../assets/images1/page1-i3-2.png"
           />
         </div>
@@ -81,12 +81,12 @@
         <div class="page-child page1-bg4" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: -400px"
+            style="position: absolute; left: 400px"
             src="../../assets/images1/page1-i4-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; left: -400px"
+            style="position: absolute; right: 400px"
             src="../../assets/images1/page1-i4-2.png"
           />
         </div>
@@ -94,12 +94,12 @@
         <div class="page-child page1-bg5" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: -400px"
+            style="position: absolute; left: 400px"
             src="../../assets/images1/page1-i5-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; left: -400px"
+            style="position: absolute; right: 400px"
             src="../../assets/images1/page1-i5-2.png"
           />
         </div>
@@ -111,7 +111,7 @@
           />
           <img
             class="flyin-img"
-            style="position: absolute; left: -400px"
+            style="position: absolute; right: 400px"
             src="../../assets/images1/page1-i6-2.png"
           />
         </div>
@@ -137,7 +137,7 @@
           />
           <img
             class="flyin-img"
-            style="position: absolute; left: -400px"
+            style="position: absolute; right: 400px"
             src="../../assets/images1/page1-i9-2.png"
           />
         </div>
@@ -149,7 +149,7 @@
           />
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; right: 400px"
             src="../../assets/images1/page1-i10-2.png"
           />
         </div>
@@ -168,15 +168,208 @@
         <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
-            style="position: absolute; left: -400px"
+            style="position: absolute; left: 400px"
             src="../../assets/images1/page1-i1-1.png"
           />
           <img
             class="flyin-img first"
-            style="position: absolute; left: 400px"
+            style="position: absolute; right: 400px"
             src="../../assets/images1/page2-i1-2.png"
           />
         </div>
+        <div class="page-child page2-bg2" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i2-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i2-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg3" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i3-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i3-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg4" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i4-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i4-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg5" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i5-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i5-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg6" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i6-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i6-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg7" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i7-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i7-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg8" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i8-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i8-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg9" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i9-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i9-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg10" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i10-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i10-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg11" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i11-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i11-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg12" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i12-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i12-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg13" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i13-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i13-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg14" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i14-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i14-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg15" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i15-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i15-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg16" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i16-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i16-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg17" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page2-i17-1.png"
+          />
+          <img
+            class="flyin-img"
+            style="position: absolute; right: 400px"
+            src="../../assets/images1/page2-i17-2.png"
+          />
+        </div>
+        <div class="page-child page2-bg18" style=""> </div>
       </div>
     </template>
 
@@ -185,7 +378,7 @@
         <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
-            style="position: absolute; left: -400px"
+            style="position: absolute; left: 400px"
             src="../../assets/images1/page1-i1-1.png"
           />
           <img
@@ -203,12 +396,12 @@
         <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
-            style="position: absolute; left: -400px"
+            style="position: absolute; left: 400px"
             src="../../assets/images1/page1-i1-1.png"
           />
           <img
             class="flyin-img first"
-            style="position: absolute; left: -400px"
+            style="position: absolute; left: 400px"
             src="../../assets/images1/page4-i1-2.png"
           />
         </div>
@@ -222,12 +415,12 @@
         <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
-            style="position: absolute; left: -400px"
+            style="position: absolute; left: 400px"
             src="../../assets/images1/page1-i1-1.png"
           />
           <img
             class="flyin-img first"
-            style="position: absolute; left: -400px"
+            style="position: absolute; left: 400px"
             src="../../assets/images1/page5-i1-2.png"
           />
         </div>
@@ -343,7 +536,7 @@
     position: absolute;
     top: 80px;
     z-index: 99999;
-    right: 10px;
+    right: 20px;
     width: 50px;
   }
   .home {
@@ -449,6 +642,58 @@
 
   .page2-bg1 {
     background-image: url('../../assets/images/page2-bg1.png');
+  }
+  .page2-bg2 {
+    background-image: url('../../assets/images1/page2-bg2.png');
+  }
+  .page2-bg3 {
+    background-image: url('../../assets/images1/page2-bg3.png');
+  }
+  .page2-bg4 {
+    background-image: url('../../assets/images1/page2-bg4.png');
+  }
+  .page2-bg5 {
+    background-image: url('../../assets/images1/page2-bg5.png');
+  }
+  .page2-bg6 {
+    background-image: url('../../assets/images1/page2-bg6.png');
+  }
+  .page2-bg7 {
+    background-image: url('../../assets/images1/page2-bg7.png');
+  }
+  .page2-bg8 {
+    background-image: url('../../assets/images1/page2-bg8.png');
+  }
+  .page2-bg9 {
+    background-image: url('../../assets/images1/page2-bg9.png');
+  }
+  .page2-bg10 {
+    background-image: url('../../assets/images1/page2-bg10.png');
+  }
+  .page2-bg11 {
+    background-image: url('../../assets/images1/page2-bg11.png');
+  }
+  .page2-bg12 {
+    background-image: url('../../assets/images1/page2-bg12.png');
+  }
+  .page2-bg13 {
+    background-image: url('../../assets/images1/page2-bg13.png');
+  }
+  .page2-bg14 {
+    background-image: url('../../assets/images1/page2-bg14.png');
+  }
+  .page2-bg15 {
+    background-image: url('../../assets/images1/page2-bg15.png');
+  }
+  .page2-bg16 {
+    background-image: url('../../assets/images1/page2-bg16.png');
+  }
+  .page2-bg17 {
+    background-image: url('../../assets/images1/page2-bg17.png');
+  }
+  .page2-bg18 {
+    background-image: url('../../assets/images1/page2-bg18.png');
+    height: 1100px !important;
   }
 
   .page3-bg1 {
