@@ -29,11 +29,13 @@
         <img style="position: absolute" class="index1" src="../../assets/images1/index1.png" />
         <img style="position: absolute" class="index2" src="../../assets/images1/index2.png" />
         <div class="jump-box">
-          <div @click="goPage(1)"></div>
-          <div @click="goPage(2)"></div>
-          <div @click="goPage(3)"></div>
-          <div @click="goPage(4)"></div>
-          <div @click="goPage(5)"></div>
+          <div>
+            <div @click="goPage(1)"></div>
+            <div @click="goPage(2)"></div>
+            <div @click="goPage(3)"></div>
+            <div @click="goPage(4)"></div>
+            <div @click="goPage(5)"></div>
+          </div>
         </div>
       </div>
     </template>
@@ -739,13 +741,20 @@
       height: 100%;
     }
     .jump-box {
-      position: absolute;
-      top: 148px;
       width: 100%;
+      height: 100%;
+      padding-top: 20vh;
       > div {
-        height: 50px;
-        width: 100%;
-        margin-top: 21px;
+        position: relative;
+        z-index: 99;
+        > div {
+          height: 6vh;
+          width: 100%;
+          margin-top: 2.5vh;
+        }
+        > div:first-child {
+          margin-top: 0;
+        }
       }
     }
   }
