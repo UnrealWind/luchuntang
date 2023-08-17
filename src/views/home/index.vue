@@ -390,6 +390,16 @@
           />
         </div>
         <div class="page-child page3-bg1" style=""> </div>
+        <div class="page-child page3-bg2" style=""> </div>
+        <div class="page-child page3-bg3" style=""> </div>
+        <div class="page-child page3-bg4" style=""> </div>
+        <div class="page-child page3-bg5" style=""> </div>
+
+        <div class="video">
+          <video controls="true">
+            <source src="../../assets/images1/video.mp4" type="video/mp4" />
+          </video>
+        </div>
       </div>
     </template>
 
@@ -409,6 +419,7 @@
         </div>
         <div class="page-child page4-bg1" style=""> </div>
         <div class="page-child page4-bg2" style=""> </div>
+        <div class="page-child page4-bg3" style=""> </div>
       </div>
     </template>
 
@@ -428,12 +439,6 @@
         </div>
         <div class="page-child page5-bg1" style=""> </div>
         <div class="page-child page5-bg2" style=""> </div>
-        <div class="page-child page5-bg3" style=""> </div>
-        <div class="video">
-          <video controls="true">
-            <source src="../../assets/images1/video.mp4" type="video/mp4" />
-          </video>
-        </div>
       </div>
     </template>
   </div>
@@ -700,29 +705,45 @@
 
   .page3-bg1 {
     background-image: url('../../assets/images1/page3-bg1.png');
-    height: 2300px !important;
+    height: 1700px !important;
+  }
+  .page3-bg2 {
+    background-image: url('../../assets/images1/page3-bg2.png');
+    height: 1800px !important;
+  }
+  .page3-bg3 {
+    background-image: url('../../assets/images1/page3-bg3.png');
+    height: 1800px !important;
+  }
+  .page3-bg4 {
+    background-image: url('../../assets/images1/page3-bg4.png');
+    height: 3200px !important;
+  }
+  .page3-bg5 {
+    background-image: url('../../assets/images1/page3-bg5.png');
+    height: 2100px !important;
   }
 
   .page4-bg1 {
     background-image: url('../../assets/images1/page4-bg1.png');
-    height: 1500px !important;
+    height: 1700px !important;
   }
   .page4-bg2 {
     background-image: url('../../assets/images1/page4-bg2.png');
     height: 2000px !important;
   }
+  .page4-bg3 {
+    background-image: url('../../assets/images1/page4-bg3.png');
+    height: 3400px !important;
+  }
 
   .page5-bg1 {
     background-image: url('../../assets/images1/page5-bg1.png');
-    height: 2000px !important;
+    height: 1700px !important;
   }
   .page5-bg2 {
     background-image: url('../../assets/images1/page5-bg2.png');
-    height: 2000px !important;
-  }
-  .page5-bg3 {
-    background-image: url('../../assets/images1/page5-bg3.png');
-    height: 2000px !important;
+    height: 3500px !important;
   }
 
   .index-page {
@@ -760,7 +781,7 @@
   }
   .video {
     position: absolute;
-    top: 1845px;
+    top: 10250px;
     video {
       width: 90%;
       margin: 0 auto;
