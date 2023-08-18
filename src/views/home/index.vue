@@ -389,16 +389,152 @@
             src="../../assets/images1/page3-i1-2.png"
           />
         </div>
-        <div class="page-child page3-bg1" style=""> </div>
-        <div class="page-child page3-bg2" style=""> </div>
-        <div class="page-child page3-bg3" style=""> </div>
-        <div class="page-child page3-bg4" style=""> </div>
-        <div class="page-child page3-bg5" style=""> </div>
 
-        <div class="video">
-          <video controls="true">
-            <source src="../../assets/images1/video.mp4" type="video/mp4" />
-          </video>
+        <div class="page-child page3-bg2" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page3-i2-1.png"
+          />
+        </div>
+        <div class="page-child page3-bg3" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page3-i3-1.png"
+          />
+        </div>
+        <div class="page-child page3-bg4" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page3-i4-1.png"
+          />
+        </div>
+        <div class="page-child page3-bg5" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page3-i5-1.png"
+          />
+        </div>
+        <div class="page-child page3-bg6" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page3-i6-1.png"
+          />
+        </div>
+        <div class="page-child page3-bg7" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page3-i7-1.png"
+          />
+        </div>
+        <div class="page-child page3-bg8" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page3-i8-1.png"
+          />
+        </div>
+        <div class="page-child page3-bg9" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page3-i9-1.png"
+          />
+        </div>
+        <div class="page-child page3-bg10" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page3-i10-1.png"
+          />
+        </div>
+        <div class="page-child page3-bg11" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page3-i11-1.png"
+          />
+          <swipe class="my-swipe" :autoplay="2000" indicator-color="white">
+            <swipe-item>
+              <img
+                style="height: 100%; width: auto; margin: 0 auto"
+                src="../../assets/images/1%20(1).jpg"
+              />
+            </swipe-item>
+            <swipe-item>
+              <img
+                style="height: 100%; width: auto; margin: 0 auto"
+                src="../../assets/images/1%20(2).jpg"
+              />
+            </swipe-item>
+            <swipe-item>
+              <img
+                style="height: 100%; width: auto; margin: 0 auto"
+                src="../../assets/images/1%20(3).jpg"
+              />
+            </swipe-item>
+            <swipe-item>
+              <img
+                style="height: 100%; width: auto; margin: 0 auto"
+                src="../../assets/images/1%20(4).jpg"
+              />
+            </swipe-item>
+            <swipe-item>
+              <img
+                style="height: 100%; width: auto; margin: 0 auto"
+                src="../../assets/images/1%20(5).jpg"
+              />
+            </swipe-item>
+            <swipe-item>
+              <img
+                style="height: 100%; width: auto; margin: 0 auto"
+                src="../../assets/images/1%20(6).jpg"
+              />
+            </swipe-item>
+            <swipe-item>
+              <img
+                style="height: 100%; width: auto; margin: 0 auto"
+                src="../../assets/images/1%20(7).jpg"
+              />
+            </swipe-item>
+            <swipe-item>
+              <img
+                style="height: 100%; width: auto; margin: 0 auto"
+                src="../../assets/images/1%20(8).jpg"
+              />
+            </swipe-item>
+            <swipe-item>
+              <img
+                style="height: 100%; width: auto; margin: 0 auto"
+                src="../../assets/images/1%20(9).jpg"
+              />
+            </swipe-item>
+            <swipe-item>
+              <img
+                style="height: 100%; width: auto; margin: 0 auto"
+                src="../../assets/images/1%20(10).jpg"
+              />
+            </swipe-item>
+          </swipe>
+        </div>
+        <div class="page-child page3-bg12" style="">
+          <div class="video">
+            <video controls="true">
+              <source src="../../assets/images1/video.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div class="page-child page3-bg13" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page3-i13-1.png"
+          />
         </div>
       </div>
     </template>
@@ -417,9 +553,56 @@
             src="../../assets/images1/page4-i1-2.png"
           />
         </div>
-        <div class="page-child page4-bg1" style=""> </div>
-        <div class="page-child page4-bg2" style=""> </div>
-        <div class="page-child page4-bg3" style=""> </div>
+        <div class="page-child page4-bg2" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page4-i2-1.png"
+          />
+        </div>
+        <div class="page-child page4-bg3" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page4-i3-1.png"
+          />
+        </div>
+        <div class="page-child page4-bg4" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page4-i4-1.png"
+          />
+        </div>
+        <div class="page-child page4-bg5" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page4-i5-1.png"
+          />
+        </div>
+        <div class="page-child page4-bg6" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page4-i6-1.png"
+          />
+        </div>
+        <div class="page-child page4-bg7" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page4-i7-1.png"
+          />
+        </div>
+        <div class="page-child page4-bg8" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page4-i8-1.png"
+          />
+        </div>
+        <div class="page-child page4-bg9" style=""> </div>
       </div>
     </template>
 
@@ -437,8 +620,49 @@
             src="../../assets/images1/page5-i1-2.png"
           />
         </div>
-        <div class="page-child page5-bg1" style=""> </div>
-        <div class="page-child page5-bg2" style=""> </div>
+        <div class="page-child page5-bg2" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page5-i2-1.png"
+          />
+        </div>
+        <div class="page-child page5-bg3" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page5-i3-1.png"
+          />
+        </div>
+        <div class="page-child page5-bg4" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page5-i4-1.png"
+          />
+        </div>
+        <div class="page-child page5-bg5" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page5-i5-1.png"
+          />
+        </div>
+        <div class="page-child page5-bg6" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page5-i6-1.png"
+          />
+        </div>
+        <div class="page-child page5-bg7" style="">
+          <img
+            class="flyin-img"
+            style="position: absolute; left: 400px"
+            src="../../assets/images1/page5-i7-1.png"
+          />
+        </div>
+        <div class="page-child page5-bg8" style=""> </div>
       </div>
     </template>
   </div>
@@ -448,8 +672,8 @@
   // @ts-nocheck
   // todo ts校验没改，任务太重了
   import { ref, onMounted } from 'vue';
-  import {} from 'vant';
   import anime from 'animejs/lib/anime.es.js';
+  import { Swipe, SwipeItem } from 'vant';
 
   let cus: any = ref({
     music: false,
@@ -703,47 +927,96 @@
     height: 1100px !important;
   }
 
-  .page3-bg1 {
-    background-image: url('../../assets/images1/page3-bg1.png');
-    height: 1700px !important;
-  }
   .page3-bg2 {
     background-image: url('../../assets/images1/page3-bg2.png');
-    height: 1800px !important;
   }
   .page3-bg3 {
     background-image: url('../../assets/images1/page3-bg3.png');
-    height: 1800px !important;
   }
   .page3-bg4 {
     background-image: url('../../assets/images1/page3-bg4.png');
-    height: 3200px !important;
   }
   .page3-bg5 {
     background-image: url('../../assets/images1/page3-bg5.png');
-    height: 2100px !important;
+  }
+  .page3-bg6 {
+    background-image: url('../../assets/images1/page3-bg6.png');
+  }
+  .page3-bg7 {
+    background-image: url('../../assets/images1/page3-bg7.png');
+  }
+  .page3-bg8 {
+    background-image: url('../../assets/images1/page3-bg8.png');
+  }
+  .page3-bg9 {
+    background-image: url('../../assets/images1/page3-bg9.png');
+  }
+  .page3-bg10 {
+    background-image: url('../../assets/images1/page3-bg10.png');
+  }
+  .page3-bg11 {
+    background-image: url('../../assets/images1/page3-bg11.png');
+    position: relative;
+    .my-swipe {
+      position: absolute;
+      top: 485px;
+      width: 100%;
+      height: 230px;
+      background-color: #fff;
+    }
+  }
+  .page3-bg12 {
+    background-image: url('../../assets/images1/page3-bg12.png');
+  }
+  .page3-bg13 {
+    background-image: url('../../assets/images1/page3-bg13.png');
   }
 
-  .page4-bg1 {
-    background-image: url('../../assets/images1/page4-bg1.png');
-    height: 1700px !important;
-  }
   .page4-bg2 {
     background-image: url('../../assets/images1/page4-bg2.png');
-    height: 2000px !important;
   }
   .page4-bg3 {
     background-image: url('../../assets/images1/page4-bg3.png');
-    height: 3400px !important;
+  }
+  .page4-bg4 {
+    background-image: url('../../assets/images1/page4-bg4.png');
+  }
+  .page4-bg5 {
+    background-image: url('../../assets/images1/page4-bg5.png');
+  }
+  .page4-bg6 {
+    background-image: url('../../assets/images1/page4-bg6.png');
+  }
+  .page4-bg7 {
+    background-image: url('../../assets/images1/page4-bg7.png');
+  }
+  .page4-bg8 {
+    background-image: url('../../assets/images1/page4-bg8.png');
+  }
+  .page4-bg9 {
+    background-image: url('../../assets/images1/page4-bg9.png');
   }
 
-  .page5-bg1 {
-    background-image: url('../../assets/images1/page5-bg1.png');
-    height: 1700px !important;
-  }
   .page5-bg2 {
     background-image: url('../../assets/images1/page5-bg2.png');
-    height: 3500px !important;
+  }
+  .page5-bg3 {
+    background-image: url('../../assets/images1/page5-bg3.png');
+  }
+  .page5-bg4 {
+    background-image: url('../../assets/images1/page5-bg4.png');
+  }
+  .page5-bg5 {
+    background-image: url('../../assets/images1/page5-bg5.png');
+  }
+  .page5-bg6 {
+    background-image: url('../../assets/images1/page5-bg6.png');
+  }
+  .page5-bg7 {
+    background-image: url('../../assets/images1/page5-bg7.png');
+  }
+  .page5-bg8 {
+    background-image: url('../../assets/images1/page5-bg8.png');
   }
 
   .index-page {
@@ -781,7 +1054,7 @@
   }
   .video {
     position: absolute;
-    top: 10250px;
+    top: 30px;
     video {
       width: 90%;
       margin: 0 auto;
