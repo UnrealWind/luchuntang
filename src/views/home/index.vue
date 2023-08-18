@@ -5,7 +5,7 @@
         <img src="../../assets/images/music.png" />
       </div>
     </div>
-    <audio autoplay loop id="vd">
+    <audio id="vd" autoplay loop>
       <source src="../../assets/test.mp3" type="audio/mpeg" />
     </audio>
     <div
@@ -463,61 +463,61 @@
             <swipe-item>
               <img
                 style="height: 100%; width: auto; margin: 0 auto"
-                src="../../assets/images/1%20(1).jpg"
+                src="../../assets/images/1.jpg"
               />
             </swipe-item>
             <swipe-item>
               <img
                 style="height: 100%; width: auto; margin: 0 auto"
-                src="../../assets/images/1%20(2).jpg"
+                src="../../assets/images/2.jpg"
               />
             </swipe-item>
             <swipe-item>
               <img
                 style="height: 100%; width: auto; margin: 0 auto"
-                src="../../assets/images/1%20(3).jpg"
+                src="../../assets/images/3.jpg"
               />
             </swipe-item>
             <swipe-item>
               <img
                 style="height: 100%; width: auto; margin: 0 auto"
-                src="../../assets/images/1%20(4).jpg"
+                src="../../assets/images/4.jpg"
               />
             </swipe-item>
             <swipe-item>
               <img
                 style="height: 100%; width: auto; margin: 0 auto"
-                src="../../assets/images/1%20(5).jpg"
+                src="../../assets/images/5.jpg"
               />
             </swipe-item>
             <swipe-item>
               <img
                 style="height: 100%; width: auto; margin: 0 auto"
-                src="../../assets/images/1%20(6).jpg"
+                src="../../assets/images/6.jpg"
               />
             </swipe-item>
             <swipe-item>
               <img
                 style="height: 100%; width: auto; margin: 0 auto"
-                src="../../assets/images/1%20(7).jpg"
+                src="../../assets/images/7.jpg"
               />
             </swipe-item>
             <swipe-item>
               <img
                 style="height: 100%; width: auto; margin: 0 auto"
-                src="../../assets/images/1%20(8).jpg"
+                src="../../assets/images/8.jpg"
               />
             </swipe-item>
             <swipe-item>
               <img
                 style="height: 100%; width: auto; margin: 0 auto"
-                src="../../assets/images/1%20(9).jpg"
+                src="../../assets/images/9.jpg"
               />
             </swipe-item>
             <swipe-item>
               <img
                 style="height: 100%; width: auto; margin: 0 auto"
-                src="../../assets/images/1%20(10).jpg"
+                src="../../assets/images/10.jpg"
               />
             </swipe-item>
           </swipe>
@@ -693,7 +693,7 @@
     setTimeout(() => {
       Array.prototype.forEach.call(
         document.getElementsByClassName('flyin-img first'),
-        function (e, i) {
+        function (e) {
           anime({
             targets: e,
             translateX: -e.offsetLeft,
@@ -704,8 +704,8 @@
   }
 
   // 通过监听@scroll，对可视区域目标img进行‘回正’操作
-  function scrollFun(e) {
-    Array.prototype.forEach.call(document.getElementsByClassName('flyin-img'), function (ele, i) {
+  function scrollFun() {
+    Array.prototype.forEach.call(document.getElementsByClassName('flyin-img'), function (ele) {
       if (ele.getBoundingClientRect().top < 200) {
         let classVal = ele.getAttribute('class');
         classVal = classVal.replace('flyin-img', '');
@@ -871,9 +871,6 @@
   //}
   //.loop(1,15);
 
-  .page2-bg1 {
-    background-image: url('../../assets/images/page2-bg1.png');
-  }
   .page2-bg2 {
     background-image: url('../../assets/images1/page2-bg2.png');
   }
