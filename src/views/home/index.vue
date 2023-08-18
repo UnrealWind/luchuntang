@@ -459,68 +459,58 @@
             style="position: absolute; left: 400px"
             src="../../assets/images1/page3-i11-1.png"
           />
-          <swipe class="my-swipe" :autoplay="2000" indicator-color="white">
-            <swipe-item>
-              <img
+          <a-carousel class="my-swipe" autoplay>
+            <div
+              ><img
                 style="height: 100%; width: auto; margin: 0 auto"
                 src="../../assets/images/1.jpg"
-              />
-            </swipe-item>
-            <swipe-item>
-              <img
+            /></div>
+            <div
+              ><img
                 style="height: 100%; width: auto; margin: 0 auto"
                 src="../../assets/images/2.jpg"
-              />
-            </swipe-item>
-            <swipe-item>
-              <img
+            /></div>
+            <div
+              ><img
                 style="height: 100%; width: auto; margin: 0 auto"
                 src="../../assets/images/3.jpg"
-              />
-            </swipe-item>
-            <swipe-item>
-              <img
+            /></div>
+            <div
+              ><img
                 style="height: 100%; width: auto; margin: 0 auto"
                 src="../../assets/images/4.jpg"
-              />
-            </swipe-item>
-            <swipe-item>
-              <img
+            /></div>
+            <div
+              ><img
                 style="height: 100%; width: auto; margin: 0 auto"
                 src="../../assets/images/5.jpg"
-              />
-            </swipe-item>
-            <swipe-item>
-              <img
+            /></div>
+            <div
+              ><img
                 style="height: 100%; width: auto; margin: 0 auto"
                 src="../../assets/images/6.jpg"
-              />
-            </swipe-item>
-            <swipe-item>
-              <img
+            /></div>
+            <div
+              ><img
                 style="height: 100%; width: auto; margin: 0 auto"
                 src="../../assets/images/7.jpg"
-              />
-            </swipe-item>
-            <swipe-item>
-              <img
+            /></div>
+            <div
+              ><img
                 style="height: 100%; width: auto; margin: 0 auto"
                 src="../../assets/images/8.jpg"
-              />
-            </swipe-item>
-            <swipe-item>
-              <img
+            /></div>
+            <div
+              ><img
                 style="height: 100%; width: auto; margin: 0 auto"
                 src="../../assets/images/9.jpg"
-              />
-            </swipe-item>
-            <swipe-item>
-              <img
+            /></div>
+            <div
+              ><img
                 style="height: 100%; width: auto; margin: 0 auto"
                 src="../../assets/images/10.jpg"
-              />
-            </swipe-item>
-          </swipe>
+            /></div>
+          </a-carousel>
         </div>
         <div class="page-child page3-bg12" style="">
           <div class="video">
@@ -673,7 +663,6 @@
   // todo ts校验没改，任务太重了
   import { ref, onMounted } from 'vue';
   import anime from 'animejs/lib/anime.es.js';
-  import { Swipe, SwipeItem } from 'vant';
 
   let cus: any = ref({
     music: false,
@@ -960,6 +949,11 @@
       width: 100%;
       height: 230px;
       background-color: #fff;
+      overflow: hidden;
+      div {
+        width: 100%;
+        height: 230px;
+      }
     }
   }
   .page3-bg12 {
