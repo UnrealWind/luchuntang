@@ -179,18 +179,7 @@
             src="../../assets/images1/page2-i1-2.png"
           />
         </div>
-        <div class="page-child page2-bg2" style="">
-          <img
-            class="flyin-img"
-            style="position: absolute; left: 400px"
-            src="../../assets/images1/page2-i2-1.png"
-          />
-          <img
-            class="flyin-img"
-            style="position: absolute; right: 400px"
-            src="../../assets/images1/page2-i2-2.png"
-          />
-        </div>
+
         <div class="page-child page2-bg3" style="">
           <img
             class="flyin-img"
@@ -653,7 +642,6 @@
             src="../../assets/images1/page5-i7-1.png"
           />
         </div>
-
       </div>
     </template>
   </div>
