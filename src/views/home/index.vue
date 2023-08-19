@@ -453,6 +453,7 @@
             src="../../assets/images1/page3-i10-1.png"
           />
         </div>
+        <div class="page-child page5-bg8" style=""> </div>
         <div class="page-child page3-bg11" style="">
           <img
             class="flyin-img"
@@ -652,7 +653,7 @@
             src="../../assets/images1/page5-i7-1.png"
           />
         </div>
-        <div class="page-child page5-bg8" style=""> </div>
+
       </div>
     </template>
   </div>
@@ -754,10 +755,10 @@
   }
   .back {
     position: absolute;
-    top: 80px;
+    top: 90px;
     z-index: 99999;
-    left: 20px;
-    width: 50px;
+    left: 35px;
+    width: 35px;
   }
   .home {
     position: relative;
