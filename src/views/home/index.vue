@@ -804,7 +804,7 @@
     position: absolute;
     top: 90px;
     z-index: 99999;
-    left: 35px;
+    left: 25px;
     width: 35px;
   }
   .home {
