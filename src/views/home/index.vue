@@ -504,9 +504,16 @@
         </div>
         <div class="page-child page3-bg12" style="">
           <div class="video">
-            <video controls="true">
-              <source src="../../assets/images1/video.mp4" type="video/mp4" />
+            <video
+              src="../../assets/images1/video.mp4"
+              controls="controls"
+              @play="handleFullScreen"
+              @ended="handleExitFullScreen"
+            >
             </video>
+            <!--            <video controls="true">-->
+            <!--              <source src="../../assets/images1/video.mp4" type="video/mp4" />-->
+            <!--            </video>-->
           </div>
         </div>
         <div class="page-child page3-bg13" style="">
@@ -715,6 +722,58 @@
         duration: 1500,
       });
     }, 0);
+  }
+
+  function handleFullScreen(e) {
+    launchFullscreen(e.target);
+  }
+  // 进入全屏
+  function launchFullscreen(element) {
+    //此方法不可以在異步任務中執行，否則火狐無法全屏
+    if (element.requestFullscreen) {
+      element.requestFullscreen();
+    } else if (element.mozRequestFullScreen) {
+      element.mozRequestFullScreen();
+    } else if (element.msRequestFullscreen) {
+      element.msRequestFullscreen();
+    } else if (element.oRequestFullscreen) {
+      element.oRequestFullscreen();
+    } else if (element.webkitRequestFullscreen) {
+      element.webkitRequestFullScreen();
+    } else {
+      var docHtml = document.documentElement;
+      var docBody = document.body;
+      var videobox = element;
+      var cssText = 'width:100%;height:100%;overflow:hidden;';
+      docHtml.style.cssText = cssText;
+      docBody.style.cssText = cssText;
+      videobox.style.cssText = cssText + ';' + 'margin:0px;padding:0px;';
+      document.IsFullScreen = true;
+    }
+  }
+  function handleExitFullScreen(e) {
+    exitFullscreen(e.target);
+  }
+  function exitFullscreen(element) {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.oRequestFullscreen) {
+      document.oCancelFullScreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else {
+      var docHtml = document.documentElement;
+      var docBody = document.body;
+      var videobox = element;
+      docHtml.style.cssText = '';
+      docBody.style.cssText = '';
+      videobox.style.cssText = '';
+      document.IsFullScreen = false;
+    }
   }
 
   onMounted(() => {
@@ -934,7 +993,7 @@
     position: relative;
     .my-swipe {
       position: absolute;
-      top: 485px;
+      top: 50%;
       width: 100%;
       height: 200px;
       background-color: #fff;
@@ -1034,14 +1093,12 @@
   }
   .video {
     position: absolute;
-    top: 30px;
-    background: #cccccc;
     width: 100%;
-    height: 230px;
+    height: 250px;
     video {
-      width: 90%;
+      width: 100%;
       margin: 0 auto;
-      height: 230px;
+      height: 250px;
     }
   }
 </style>
