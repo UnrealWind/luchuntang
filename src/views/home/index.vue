@@ -45,12 +45,12 @@
         <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i1-1.png"
           />
           <img
             class="flyin-img first"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page1-i1-2.png"
           />
         </div>
@@ -58,24 +58,24 @@
         <div class="page-child page1-bg2" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i2-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page1-i2-2.png"
           />
         </div>
         <div class="page-child page1-bg3" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i3-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page1-i3-2.png"
           />
         </div>
@@ -83,12 +83,12 @@
         <div class="page-child page1-bg4" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i4-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page1-i4-2.png"
           />
         </div>
@@ -96,69 +96,69 @@
         <div class="page-child page1-bg5" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i5-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page1-i5-2.png"
           />
         </div>
         <div class="page-child page1-bg6" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i6-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page1-i6-2.png"
           />
         </div>
         <div class="page-child page1-bg7" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i7-1.png"
           />
         </div>
         <div class="page-child page1-bg8" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i8-1.png"
           />
         </div>
         <div class="page-child page1-bg9" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i9-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page1-i9-2.png"
           />
         </div>
         <div class="page-child page1-bg10" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i10-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page1-i10-2.png"
           />
         </div>
         <div class="page-child page1-bg11" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i11-1.png"
           />
         </div>
@@ -170,12 +170,12 @@
         <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i1-1.png"
           />
           <img
             class="flyin-img first"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i1-2.png"
           />
         </div>
@@ -183,180 +183,180 @@
         <div class="page-child page2-bg3" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i3-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i3-2.png"
           />
         </div>
         <div class="page-child page2-bg4" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i4-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i4-2.png"
           />
         </div>
         <div class="page-child page2-bg5" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i5-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i5-2.png"
           />
         </div>
         <div class="page-child page2-bg6" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i6-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i6-2.png"
           />
         </div>
         <div class="page-child page2-bg7" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i7-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i7-2.png"
           />
         </div>
         <div class="page-child page2-bg8" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i8-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i8-2.png"
           />
         </div>
         <div class="page-child page2-bg9" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i9-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i9-2.png"
           />
         </div>
         <div class="page-child page2-bg10" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i10-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i10-2.png"
           />
         </div>
         <div class="page-child page2-bg11" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i11-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i11-2.png"
           />
         </div>
         <div class="page-child page2-bg12" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i12-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i12-2.png"
           />
         </div>
         <div class="page-child page2-bg13" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i13-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i13-2.png"
           />
         </div>
         <div class="page-child page2-bg14" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i14-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i14-2.png"
           />
         </div>
         <div class="page-child page2-bg15" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i15-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i15-2.png"
           />
         </div>
         <div class="page-child page2-bg16" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i16-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i16-2.png"
           />
         </div>
         <div class="page-child page2-bg17" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page2-i17-1.png"
           />
           <img
             class="flyin-img"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page2-i17-2.png"
           />
         </div>
@@ -369,12 +369,12 @@
         <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i1-1.png"
           />
           <img
             class="flyin-img first"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page3-i1-2.png"
           />
         </div>
@@ -382,63 +382,63 @@
         <div class="page-child page3-bg2" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page3-i2-1.png"
           />
         </div>
         <div class="page-child page3-bg3" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page3-i3-1.png"
           />
         </div>
         <div class="page-child page3-bg4" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page3-i4-1.png"
           />
         </div>
         <div class="page-child page3-bg5" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page3-i5-1.png"
           />
         </div>
         <div class="page-child page3-bg6" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page3-i6-1.png"
           />
         </div>
         <div class="page-child page3-bg7" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page3-i7-1.png"
           />
         </div>
         <div class="page-child page3-bg8" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page3-i8-1.png"
           />
         </div>
         <div class="page-child page3-bg9" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page3-i9-1.png"
           />
         </div>
         <div class="page-child page3-bg10" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page3-i10-1.png"
           />
         </div>
@@ -446,7 +446,7 @@
         <div class="page-child page3-bg11" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page3-i11-1.png"
           />
           <a-carousel class="my-swipe" autoplay>
@@ -512,7 +512,7 @@
         <div class="page-child page3-bg13" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page3-i13-1.png"
           />
         </div>
@@ -524,61 +524,61 @@
         <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i1-1.png"
           />
           <img
             class="flyin-img first"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page4-i1-2.png"
           />
         </div>
         <div class="page-child page4-bg2" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page4-i2-1.png"
           />
         </div>
         <div class="page-child page4-bg3" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page4-i3-1.png"
           />
         </div>
         <div class="page-child page4-bg4" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page4-i4-1.png"
           />
         </div>
         <div class="page-child page4-bg5" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page4-i5-1.png"
           />
         </div>
         <div class="page-child page4-bg6" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page4-i6-1.png"
           />
         </div>
         <div class="page-child page4-bg7" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page4-i7-1.png"
           />
         </div>
         <div class="page-child page4-bg8" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page4-i8-1.png"
           />
         </div>
@@ -591,54 +591,54 @@
         <div class="page-child page1-bg1" style="">
           <img
             class="flyin-img first"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page1-i1-1.png"
           />
           <img
             class="flyin-img first"
-            style="position: absolute; right: 400px"
+            style="position: absolute; right: 500px"
             src="../../assets/images1/page5-i1-2.png"
           />
         </div>
         <div class="page-child page5-bg2" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page5-i2-1.png"
           />
         </div>
         <div class="page-child page5-bg3" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page5-i3-1.png"
           />
         </div>
         <div class="page-child page5-bg4" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page5-i4-1.png"
           />
         </div>
         <div class="page-child page5-bg5" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page5-i5-1.png"
           />
         </div>
         <div class="page-child page5-bg6" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page5-i6-1.png"
           />
         </div>
         <div class="page-child page5-bg7" style="">
           <img
             class="flyin-img"
-            style="position: absolute; left: 400px"
+            style="position: absolute; left: 500px"
             src="../../assets/images1/page5-i7-1.png"
           />
         </div>
@@ -936,12 +936,12 @@
       position: absolute;
       top: 485px;
       width: 100%;
-      height: 230px;
+      height: 200px;
       background-color: #fff;
       overflow: hidden;
       div {
         width: 100%;
-        height: 230px;
+        height: 200px;
       }
     }
   }
@@ -1035,9 +1035,13 @@
   .video {
     position: absolute;
     top: 30px;
+    background: #cccccc;
+    width: 100%;
+    height: 230px;
     video {
       width: 90%;
       margin: 0 auto;
+      height: 230px;
     }
   }
 </style>
